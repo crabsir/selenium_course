@@ -2,8 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import time
 
+link = "http://suninjuly.github.io/selects2.html"
+
 try:
-    link = "http://suninjuly.github.io/selects2.html"
     browser = webdriver.Chrome()
     browser.get(link)
 

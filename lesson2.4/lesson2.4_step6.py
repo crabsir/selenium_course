@@ -1,8 +1,9 @@
 from selenium import webdriver
 import time
 
+link = "http://suninjuly.github.io/cats.html"
+
 try:
-    link = "http://suninjuly.github.io/cats.html"
     browser = webdriver.Chrome()
     browser.get(link)
 

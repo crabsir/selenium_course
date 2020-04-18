@@ -7,8 +7,9 @@ def calc(a):
     return str(math.log(abs(12*math.sin(int(a)))))
 
 
+link = "http://suninjuly.github.io/math.html"
+
 try:
-    link = "http://suninjuly.github.io/math.html"
     browser = webdriver.Chrome()
     browser.get(link)
 

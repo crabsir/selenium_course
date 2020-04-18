@@ -7,8 +7,9 @@ current_dir = os.path.abspath(os.path.dirname(__file__))
 # добавляем к этому пути имя файла
 file_path = os.path.join(current_dir, 'upload_file.txt')
 
+link = "http://suninjuly.github.io/file_input.html"
+
 try:
-    link = "http://suninjuly.github.io/file_input.html"
     browser = webdriver.Chrome()
     browser.get(link)
 

@@ -10,8 +10,9 @@ def calc(a):
     return str(math.log(abs(12*math.sin(int(a)))))
 
 
+link = "http://suninjuly.github.io/explicit_wait2.html"
+
 try:
-    link = "http://suninjuly.github.io/explicit_wait2.html"
     browser = webdriver.Chrome()
     browser.get(link)
 
