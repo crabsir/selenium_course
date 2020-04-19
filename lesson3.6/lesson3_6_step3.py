@@ -29,4 +29,4 @@ def test_hint_test_is_correct(browser, question_num):
     expected_element = WebDriverWait(browser, 15).until(
         Ec.visibility_of_element_located((By.CSS_SELECTOR, "pre.smart-hints__hint"))
     )
-    assert expected_element.text == "Correct!"
+    assert expected_element.text == "Correct!", "Unexpected confirmation message!"
